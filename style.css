@@ -1,0 +1,154 @@
+header{
+    background-color: powderblue;
+    text-align: center;
+    margin: 0px 0px;
+    background-size: cover;
+    font-size: 20px;
+    margin-top: 0;
+    top: 0
+}
+h1{
+    margin: 0;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+header P{
+    margin: 0;
+    padding: 30px;
+}
+
+.koumoku{
+    display: flex;
+    justify-content: center;
+}
+/*大項目のスタイル*/
+h2{
+        margin: 64px 0 0;
+        padding: 16px  32px;
+        background-color: #e4fbf4;
+        border-radius: 8px;
+        border-left: 8px solid #0bb783;
+        font-family: inherit;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.4px;
+        color: #183028;
+}
+
+.container{
+    padding-left: 14%;
+    padding-right: 14%;
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;  
+    width: calc(100% - 64px);
+    margin: 32px auto 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #183028;
+    max-width: 780px;
+}
+
+p.article-desc{
+    margin: 32px 0 0;
+    padding: 32px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0;
+    color: #183028;
+}
+
+.list ul{
+    margin: 24px auto 12px;
+    padding: 8px 24px 24px;
+    background-color: #e4fbf4;
+    border-radius: 8px;
+}
+
+.list ul li::before {
+    content: "・";
+    font-size: 6px;
+    width: 8px;
+    height: 8px;
+    margin: 8px 8px 0 0;
+    background-color: #183028;
+    border-radius: 50%;
+}
+
+.list li{
+    list-style: none;
+}
+
+.list ul li{
+    margin: 16px 0 0;
+    width: calc(100% - 16px);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #183028;
+}
+
+b {
+    font-weight: 700;
+    background-image: linear-gradient(transparent 60%, #abf3de 0);
+}
+h3{
+    font-size: 32px;
+    text-align: center;
+}
+img{
+    justify-content: center;
+    padding: auto;
+}
+.photo{
+    text-align: center;
+}
+.mokuji{
+    width: 100%;
+    margin: 32px 0 0;
+    padding: 32px;
+    background-color: #fff;
+    border: 2px solid #f2f2f2;
+    border-radius: 8px;
+}
+/* .mokuji li{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-family: inherit;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0;
+        color: #183028;
+} */
+
+img.setume{
+    width: calc(100% - 64px);
+}
+.teach p{
+    text-decoration: underline;
+}
+
+p.saba{
+    text-decoration: none;
+}
+
+.honbun{
+    display: flex;
+}
+
+aside.left{
+    margin-left: 0;
+}
+aside.right{
+    margin-right: 0;
+}
+
