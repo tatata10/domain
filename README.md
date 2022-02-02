@@ -1,2 +1,2 @@
 # domain
-how to use domain
+ドメインの設定方法
